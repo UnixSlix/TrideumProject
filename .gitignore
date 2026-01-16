@@ -1,0 +1,81 @@
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+.env.*
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+.container-id
+.docker
+docker-compose.*.yml
+
+# Entrypoint script (if you keep it executable)
+# not required, but you can include it if your workflow changes it
+# entrypoint.sh
+
+# Application‑specific
+# ignore generated reports - replace path on next line with a local dir if added
+# project499/savedReports/
+# ignore any local Milvus data (if accidentally checked in)
+milvus_data/
+# ignore any Ollama model cache (if mapped)
+ollama_models/
+
+# Word / temp files
+*.docx~
