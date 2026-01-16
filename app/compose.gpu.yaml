@@ -1,0 +1,11 @@
+# This file is used to run the Ollama server with GPU support.
+# To do so, run the following command:
+# docker compose -f compose.yaml -f compose.gpu.yaml up --build
+
+services:
+  ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

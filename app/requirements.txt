@@ -1,0 +1,10 @@
+ollama
+pymilvus
+tqdm
+python-docx
+uvicorn
+python-multipart
+fastapi
+jinja2
+pydantic
+transformers
